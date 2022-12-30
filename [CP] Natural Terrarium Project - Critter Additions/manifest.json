@@ -1,0 +1,17 @@
+{
+  "Name": "[CP] Natural Aquarium Project - Critter Additions",
+  "Author": "StarAmy",
+  "Version": "1.0.0",
+  "Description": "Adds rules for my custom terrarium creatures",
+  "UniqueID": "StarAmy.CritterAdditons",
+   "Dependencies": [
+        {
+            "UniqueID": "spacechase0.JsonAssets",
+            "IsRequired": true
+        },
+    ],
+   "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "1.20.0"
+   }
+}

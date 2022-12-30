@@ -1,0 +1,476 @@
+{
+    "Format": "1.23.0",
+    "Changes": [
+         {
+        "Action": "EditImage",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/amycritterobjects.png",
+  "FromArea": { "X": 0, "Y": 0, "Width": 384, "Height": 64 }, 
+        "ToArea": { "X": 0, "Y": 1360, "Width": 384, "Height": 64 },
+     },
+    {
+          "Action": "EditData",
+      "LogName": "Fish Object Data",
+          "Target": "Data/ObjectInformation",
+          "Entries": {
+            "2040": "Tortoise/80/0/Resource -16/Tortoise/A slow, friendly tortoise.",
+            "2041": "Leopard Gecko/80/0/Resource -16/Leopard Gecko/An desert reptile that stores excess nutrients in its tail.",
+            "2042": "Iguana/80/0/Resource -16/Iguana/An iconic tropical lizard.",
+            "2043": "Gila Monster/80/0/Resource -16/Gila Monster/Careful! Don't let this one nip you.",
+            "2044": "Sand Boa/80/0/Resource -16/Sand Boa/Prone to disappearing under the sand.",
+            "2045": "Tomato Frog/80/0/Resource -16/Tomato Frog/Probably doesn't taste like tomatoes.",
+            "2046": "Fire Bellied Toad/80/0/Resource -16/Fire Bellied Toad/Likes moist, swampy areas.",
+            "2047": "Bearded Dragon/80/0/Resource -16/Bearded Dragon/It's happy basking in the sun most of the day.",
+            "2048": "Corn Snake/80/0/Resource -16/Corn Snake/A non-venemous snake commonly kept as a pet.",
+            "2049": "Tiger Salamander/80/0/Resource -16/Tiger Salamander/A striking salamadander that loves wet leaves.",
+            "2050": "Rattlesnake/80/0/Resource -16/Rattlesnake/Lets out a warning when you get too close.",
+            "2051": "Blue Poison Dart Frog/80/0/Resource -16/Blue Poison Dart Frog/These ones eat fruit flies and don't seem too poisonous.",
+            "2052": "Teal Poison Dart Frog/80/0/Resource -16/Teal Poison Dart Frog/These ones eat fruit flies and don't seem too poisonous.",
+            "2053": "Green Poison Dart Frog/80/0/Resource -16/Green Poison Dart Frog/These ones eat fruit flies and don't seem too poisonous.",
+            "2054": "Red Poison Dart Frog/80/0/Resource -16/Red Poison Dart Frog/These ones eat fruit flies and don't seem too poisonous.",
+            "2055": "Yellow Poison Dart Frog/80/0/Resource -16/Yellow Poison Dart Frog/These ones eat fruit flies and don't seem too poisonous.",
+            "2056": "Chameleon/80/0/Resource -16/Chameleon/Can shift colors to camoflouge better with the environment.",
+            "2057": "King Snake/80/0/Resource -16/King Snake/Red next to black, friend of Jack.",
+            "2058": "Cobra/80/0/Resource -16/Cobra/An poisonous snake with a unique neck flare.",
+            "2059": "Vine Snake/80/0/Resource -16/Vine Snake/A delicate snake hiding in the branches.",
+            "2060": "Red Eared Slider/80/0/Resource -16/Red Eared Slider/A turtle commony found in swamps and ponds.",
+            "2061": "Mudskipper/80/0/Resource -16/Mudskipper/What a strange...fish?",
+            "2062": "Frilled Lizard/80/0/Resource -16/Frilled Lizard/Has a unique threat display.",
+            "2063": "Pink Spirit Moth/80/0/Resource -16/Pink Spirit Moth/An unusual nocturnal moth.",
+            "2064": "Dung Beetle/80/0/Resource -16/Dung Beetle/An important natural recycler.",
+            "2065": "Pink Orchid Mantis/80/0/Resource -16/Pink Orchid Mantis/Mimics the look of an orchid flower to hide.",
+            "2066": "Red Ladybug/30/0/Resource -16/Red Ladybug/A colorful little bug, often looked at as good luck.",
+            "2067": "Orange Ladybug/30/0/Resource -16/Orange Ladybug/A colorful little bug, often looked at as good luck.",
+            "2068": "Honeybee/30/0/Resource -16/Honeybee/A useful pollintaing insect with a sharp sting.",
+            "2069": "Bumblebee/30/0/Resource -16/Bumblebee/A useful pollintaing insect with a sharp sting.",
+            "2070": "Blue Dragonfly/30/0/Resource -16/Blue Dragonfly/A flying bug usually seen near water.",
+            "2071": "Green Dragonfly/30/0/Resource -16/Green Dragonfly/A flying bug usually seen near water.",
+            "2072": "Caterpillar/35/0/Resource -16/Caterpillar/Could turn into all sorts of pretty butterflies.",
+            "2073": "Cricket/25/0/Resource -16/Cricket/A noisy ground dwelling insect.",
+            "2074": "Firefly/30/0/Resource -16/Firefly/They light up summer nights.",
+            "2075": "Green Luna Moth/25/0/Resource -16/Green Luna Moth/An unusual nocturnal moth.",
+            "2076": "Brown Moth/25/0/Resource -16/Brown Moth/An unusual nocturnal moth.",
+            "2077": "Atlas Moth/25/0/Resource -16/Atlas Moth/An unusual nocturnal moth.",
+            "2078": "Cecropia Moth/25/0/Resource -16/Cecropia Moth/An unusual nocturnal moth.",
+            "2079": "Pink Saturniid Moth/25/0/Resource -16/Pink Saturniid Moth/An unusual nocturnal moth.",
+            "2080": "Scorpion/80/0/Resource -16/Scorpion/A desert insect with a toxic sting.",
+            "2081": "Tarantula/80/0/Resource -16/Tarantula/An unnervingly large spider that's actually fairly friendly.",
+            "2082": "Green Mantis/80/0/Resource -16/Green Mantis/A top predator of the insect world.",
+            "2083": "Anthill/80/0/Resource -16/Anthill/Home to thousands of tiny insects.",
+            "2084": "Leaf Insect/80/0/Resource -16/Leaf Insect/Looks just like a dead leaf when perfectly still.",
+            "2085": "Stick Insect/80/0/Resource -16/Stick Insect/Looks just like a bundle of sticks when perfectly still.",
+            "2086": "Admirabilis Moth/80/0/Resource -16/Admirabilis Moth/An unusual nocturnal moth.",
+            "2087": "Green Saturniid Moth/80/0/Resource -16/Green Saturniid Moth/An unusual nocturnal moth.",
+            "2088": "White Rat/55/0/Resource -16/White Rat/Makes a smart and friendly pet.",
+            "2089": "Black Rat/55/0/Resource -16/Black Rat/Makes a smart and friendly pet.",
+            "2090": "Grey Rat/55/0/Resource -16/Grey Rat/Makes a smart and friendly pet.",
+            "2091": "Brown Rat/55/0/Resource -16/Brown Rat/Makes a smart and friendly pet.",
+            "2092": "White Mouse/35/0/Resource -16/White Mouse/A tiny rodent found around old buildings.",
+            "2093": "Black Mouse/35/0/Resource -16/Black Mouse/A tiny rodent found around old buildings.",
+            "2094": "Grey Mouse/35/0/Resource -16/Grey Mouse/A tiny rodent found around old buildings.",
+            "2095": "Brown Mouse/35/0/Resource -16/Brown Mouse/A tiny rodent found around old buildings.",
+            "2096": "Grey Squirrel/80/0/Resource -16/Grey Squirrel/A quick scavenger common in forests and towns.",
+            "2097": "Chinchilla/80/0/Resource -16/Chinchilla/A fluffy alpine friend.",
+            "2098": "Blue Tongued Skink/25/0/Resource -16/Blue Tongued Skink/A large lizard with a striking blue tongue.",
+            "2099": "Black Rabbit/80/0/Resource -16/Black Rabbit/Shy woodland resident with a soft coat.",
+            "2100": "Brown Rabbit/80/0/Resource -16/Brown Rabbit/Shy woodland resident with a soft coat.",
+            "2101": "Hedgehog/80/0/Resource -16/Hedgehog/Prickly when disturbed.",
+            "2102": "White Guinea Pig/45/0/Resource -16/White Guinea Pig/Sometimes kept as pets and sometimes used as a ingredient in many cuisines.",
+            "2103": "Black Guinea Pig/45/0/Resource -16/Black Guinea Pig/Sometimes kept as pets and sometimes used as a ingredient in many cuisines.",
+            "2104": "Grey Guinea Pig/45/0/Resource -16/Grey Guinea Pig/Sometimes kept as pets and sometimes used as a ingredient in many cuisines.",
+            "2105": "Brown Guinea Pig/45/0/Resource -16/Brown Guinea Pig/Sometimes kept as pets and sometimes used as a ingredient in many cuisines.",
+            "2106": "Anole/35/0/Resource -16/Anole/A common tropical lizard.",
+            "2107": "Ferret/80/0/Resource -16/Ferret/A clever, quick weasel relative.",
+            "2108": "Barn Owl/80/0/Resource -16/Barn Owl/A quiet nocturnal bird of prey.",
+            "2109": "Kangaroo Rat/80/0/Resource -16/Kangaroo Rat/An odd rodent always on the move.",
+            "2110": "Plume Moth/80/0/Resource -16/Plume Moth/An unusual nocturnal moth.",
+            "2111": "Rosy Maple Moth/80/0/Resource -16/Rosy Maple Moth/An unusual nocturnal moth.",
+            "2112": "Green Hummingbird/80/0/Resource -16/Green Hummingbird/A small bird that hardly ever stays still.",
+            "2113": "Orange Hummingbird/80/0/Resource -16/Orange Hummingbird/A small bird that hardly ever stays still.",
+            "2114": "Red Hummingbird/80/0/Resource -16/Red Hummingbird/A small bird that hardly ever stays still.",
+            "2115": "Blue Hummingbird/80/0/Resource -16/Blue Hummingbird/A small bird that hardly ever stays still.",
+            "2116": "Purple Hummingbird/80/0/Resource -16/Purple Hummingbird/A small bird that hardly ever stays still.",
+            "2117": "Small Dark Chick/60/0/Resource -16/Small Dark Chick/A young bird fresh out of the nest.",
+            "2118": "Small Light Chick/60/0/Resource -16/Small Light Chick/A young bird fresh out of the nest.",
+            "2119": "Budgie/80/0/Resource -16/Budgie/A colorful and chatty small bird.",
+            "2120": "Puffball Bats/80/0/Resource -16/Puffball Bats/Cozy cuddled up in their leaf.",
+            "2121": "Meyers Parrot/80/0/Resource -16/Meyers Parrot/A smart, short-tailed bird with colorful highlights.",
+            "2122": "Pigeon/80/0/Resource -16/Pigeon/A common domesticated bird often found feral in towns.",
+            "2123": "Gouldian Finch/80/0/Resource -16/Gouldian Finch/An extremely colorful, tiny bird.",
+            "2124": "Zebra Finch/80/0/Resource -16/Zebra Finch/A tiny finch with bright orange highlights.",
+            "2125": "Lorikeet/80/0/Resource -16/Lorikeet/Very sociable and often kept in zoos.",
+            "2126": "Sun Conure/80/0/Resource -16/Sun Conure/Loud in color and in volume.",
+            "2127": "Cockatoo/80/0/Resource -16/Cockatoo/A flashy tropical bird with an unique head crest.",
+            "2128": "African Grey Parrot/80/0/Resource -16/African Grey Parrot/An unusually smart bird.",
+            "2129": "Toucan/80/0/Resource -16/Toucan/An iconic and colorful tropical bird.",
+            "2130": "Kestrel/80/0/Resource -16/Kestrel/A small but fierce bird of prey.",
+            "2131": "Pelican/80/0/Resource -16/Pelican/A huge seabird with some unique adaptations for scooping out fish.",
+            "2132": "Lovebirds/80/0/Resource -16/Lovebirds/They make a sweet pair.",
+            "2133": "Cockatiel/80/0/Resource -16/Cockatiel/A small bird with a tiny crest like a cockatoo.",
+            "2134": "Bird Nest/80/0/Resource -16/Bird Nest/A cozy nest full of young birds.",
+            "2135": "Rodent Nest/80/0/Resource -16/Rodent Nest/A cozy nest full of young rodents.",
+           }
+         },
+        {
+      "Action": "EditImage",
+      "LogName": "StarAmy Fresh Aquarium",
+      "Target": "LooseSprites/AquariumFish",
+      "FromFile": "assets/staramyterrariumdata.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 4320,
+        "Width": 480,
+        "Height": 816
+        },
+        },
+        {
+      "Action": "EditData",
+      "Target": "Data/AquariumFish",
+      "Entries": {
+        "2040": "1800/crawl/1800 1800 1800 1800 1800 1800 1803 1803 1803 1800 1800 1800 1800 1800 1800/1801/1802/1801",//desert tortoise
+        "2041": "1804/crawl/1804 1804 1804 1804 1804 1804 1804 1804 1804 1804 1807 1807 1807 1804 1804 1804 1804 1804/1805/1806/1805",//leopard gecko
+        "2064": "1808/crawl/1808/1809/1810/1809",//dung beetle
+        "2074": "2118/float/2118 2119/2118 2119/2118 2119/2118 2119",//firefly
+        "2112": "1812/float/1812 1813 1814 1813/1812 1813 1814 1813/1812 1813 1814 1813/1812 1813 1814 1813",//green hummingbird
+        "2113": "1815/float/1815 1816 1817 1816/1815 1816 1817 1816/1815 1816 1817 1816/1815 1816 1817 1816",//orange hummingbird
+        "2073": "1818/crawl/1818/1818/1819/1818",//cricket
+        "2044": "1820/crawl/1820/1821 1822 1823 1824 1825 1826 1827 1828/1829/1830 1831 1832 1833 1834 1835 1836 1837 1838 1839",//sand boa
+        "2066": "1840/float/1840 1841/1840 1841/1840 1841/1840 1841",//red ladybug
+        "2067": "1842/float/1842 1843/1842 1843/1842 1843/1842 1843",//orange ladybug
+        "2068": "1844/float/1844 1845/1844 1845/1844 1845/1844 1845",//honeybee
+        "2069": "1846/float/1846 1847/1846 1847/1846 1847/1846 1847",//bumblebee
+        "2070": "1848/float/1848 1849/1848 1849/1848 1849/1848 1849",//blue dragonfly
+        "2071": "1850/float/1850 1851/1850 1851/1850 1851/1850 1851",//green dragonfly
+        "2114": "1852/float/1852 1853 1854 1853/1852 1853 1854 1853/1852 1853 1854 1853/1852 1853 1854 1853",//red hummingbird
+        "2115": "1855/float/1855 1856 1857 1856/1855 1856 1857 1856/1855 1856 1857 1856/1855 1856 1857 1856",//blue hummingbird
+        "2058": "1860/crawl/1860/1861 1862 1863 1862/1861 1862 1863 1862/1861 1862 1863 1862",//cobra
+        "2042": "1864/crawl/1864 1864 1864 1864 1864 1867 1867 1867 1864 1864 1864/1865/1866/1865",//iguana
+        "2043": "1868/crawl/1868 1868 1868 1868 1868 1868 1868 1871 1871 1871 1868 1868 1868 1868 1868 1868 1868 1868/1869/1870/1869",//gila monster
+        "2047": "1872/crawl/1872 1872 1872 1872 1872 1875 1875 1872 1872 1872/1873/1874/1873",//bearded dragon
+        "2084": "1876/crawl/1876/1876 1877/1876 1877/1876 1877",//leaf insect
+        "2085": "1878/crawl/1878/1878 1879/1878 1879/1878 1879",//stick insect
+        "2082": "1858/crawl/1858/1858 1859 1858/1859 1858 1859/1858 1859 1858",//green mantis
+        "2092": "1880/crawl/1880/1885/1881 1882 1883 1884/1885",//white mouse
+        "2093": "1886/crawl/1886/1891/1887 1888 1889 1890/1891",//black mouse
+        "2094": "1892/crawl/1892/1897/1893 1894 1895 1896/1897",//grey mouse
+        "2065": "1898/crawl/1898/1898 1899 1898/1899 1898 1899/1898 1899 1898",//orchid mantis
+        "2095": "1900/crawl/1900/1905/1901 1902 1903 1904/1905",//brown mouse
+        "2088": "1906/crawl/1906/1911/1907 1908 1909 1910/1911",//white rat
+        "2089": "1912/crawl/1912/1917/1913 1914 1915 1916/1917",//black rat
+        "2072": "1918/crawl/1918/1918 1919 1918/1919 1918 1919/1918 1919 1918",//caterpillar
+        "2090": "1920/crawl/1920/1925/1921 1922 1923 1924/1925",//grey rat
+        "2091": "1926/crawl/1926/1931/1927 1928 1929 1930/1931",//brown rat
+        "2116": "1932/crawl/1932 1933 1934 1933/1932 1933 1934 1933/1932 1933 1934 1933/1932 1933 1934 1933",//purple hummingbird
+        "2117": "1935/crawl/1935 1935 1935 1935 1935 1935 1935 1935 1936 1935 1936 1935 1935/1937 1938/1937 1938/1937 1938",//small dark chick
+        "2075": "1940/float/1940 1941 1942 1941/1940 1941 1942 1941/1940 1941 1942 1941/1940 1941 1942 1941",//moth one
+        "2076": "1943/float/1943 1944 1945 1944/1943 1944 1945 1944/1943 1944 1945 1944/1943 1944 1945 1944",//moth two
+        "2077": "1946/float/1946 1947 1948 1947/1946 1947 1948 1947/1946 1947 1948 1947/1946 1947 1948 1947",//moth three
+        "2078": "1949/float/1949 1950 1951 1950/1949 1950 1951 1950/1949 1950 1951 1950/1949 1950 1951 1950",//moth four
+        "2079": "1952/float/1952 1953 1954 1953/1952 1953 1954 1953/1952 1953 1954 1953/1952 1953 1954 1953",//moth five
+        "2118": "1955/crawl/1955 1955 1955 1955 1955 1955 1955 1955 1956 1955 1956 1955 1955/1956 1957/1956 1957/1956 1957",//small light chick
+        "2083": "1959/static",//anthill
+        "2063": "1960/float/1960 1961 1962 1961/1960 1961 1962 1961/1960 1961 1962 1961/1960 1961 1962 1961",//moth six
+        "2087": "1963/float/1963 1964 1965 1964/1963 1964 1965 1964/1963 1964 1965 1964/1963 1964 1965 1964",//moth seven
+        "2111": "1966/float/1966 1967 1968 1967/1966 1967 1968 1967/1966 1967 1968 1967/1966 1967 1968 1967",//moth eight
+        "2086": "1969/float/1969 1970 1971 1970/1969 1970 1971 1970/1969 1970 1971 1970/1969 1970 1971 1970",//moth nine
+        "2110": "1972/float/1972 1973 1974 1973/1972 1973 1974 1973/1972 1973 1974 1973/1972 1973 1974 1973",//moth ten
+        "2049": "1975/crawl/1975 1975 1975 1975 1975 1975 1975 1975 1975 1975 1978 1978 1978 1975 1975 1975 1975 1975/1976/1977/1976",//tiger salamander
+        "2059": "1979/static",//vine snake
+        "2109": "1980/crawl/1980/1980 1981 1982 1981/1980 1981 1982 1981/1980 1981 1982 1981",//kangaroo rat
+        "2051": "1983/crawl/1983 1984 1983/1985 1986 1987/1985 1986 1987/1985 1986 1987",//blue dart frog
+        "2052": "1988/crawl/1988 1989 1988/1990 1991 1992/1990 1991 1992/1990 1991 1992",//teal dart frog
+        "2053": "1993/crawl/1993 1994 1993/1995 1996 1997/1995 1996 1997/1995 1996 1997",//green dart frog
+        "2134": "1998/static",//bird nest
+        "2135": "1999/static",//rodent nest
+        "2054": "2000/crawl/2000 2001 2000/2002 2003 2004/2002 2003 2004/2002 2003 2004",//red dart frog
+        "2055": "2005/crawl/2005 2006 2005/2007 2008 2009/2007 2008 2009/2007 2008 2009",//yellow dart frog
+        "2045": "2010/crawl/2010 2011 2012 2011 2010/2010/2010 2013 2014 2015/2010",//tomato frog
+        "2098": "2016/crawl/2017 2016 2017 2017 2017/2018/2019/2018",//blue tongued skink
+        "2046": "2020/crawl/2020 2021 2022 2021 2020/2020/2020 2023 2024 2025/2020",//fire bellied toad
+        "2096": "2026/crawl/2026/2027 2028/2029 2030/2031 2032",//grey squirrel
+        "2060": "2033/crawl/2033 2033 2033 2033 2033 2033 2033 2033 2033 2033 2033 2033 2034 2035 2034 2033 2033/2034 2036/2034 2036/2034 2036",//RES
+        "2061": "2037/crawl/2039/2039 2037 2038/2037 2038/2037 2038 2039",//mudskipper
+        "2080": "2040/crawl/2040/2040 2041/2040 2041/2040 2041",//scorpion
+        "2106": "2042/crawl/2042 2042 2042 2042 2042 2044 2042/2042 2043/2042 2043/2042 2043",//anole
+        "2120": "2045/static",//puffball bats
+        "2056": "2046/static",//chameleon
+        "2132": "2047/static",//lovebirds
+        "2107": "2048/crawl/2048 2048 2048 2048 2048 2048 2048 2048 2048 2048 2048 2048 2048 2048 2048 2048 2048 2049 2049 2049 2049 2049 2049 2048 2048 2048 2048 2048 2048 2048 2048 2048 2048 2048 2048 2050 2051 2051 2051 2051 2050/2050 2052 2053 2054/2050 2052 2053 2054/2050 2052 2053 2054",//ferret
+        "2050": "2055/crawl/2055 2059/2056 2057 2058/2056 2057 2058/2056 2057 2058",//rattlesnake
+        "2099": "2060/crawl/2060/2061/2062/2063",//black rabbit
+        "2100": "2064/crawl/2064/2065/2066/2067",//brown rabbit
+        "2097": "2068/crawl/2068 2068 2068 2068 2068 2068 2068 2068 2068 2068 2068 2069 2069 2069 2069 2069 2069 2069 2069 2068 2068 2068 2068/2070 2071/2070 2071/2070 2071",//chinchilla
+        "2048": "2072/crawl/2072/2073 2074 2075 2074/2073 2074 2075 2074/2073 2074 2075 2074",//corn snake
+        "2057": "2076/crawl/2076/2077 2078 2079 2078/2077 2078 2079 2078/2077 2078 2079 2078",//king snake
+        "2119": "2080/ground/2080/2081 2082 2083 2082/2081 2082 2083 2082/2081 2082 2083 2082",//budgie
+        "2122": "2085/ground/2085/2086 2087 2088 2087/2086 2087 2088 2087/2086 2087 2088 2087",//pigeon
+        "2123": "2090/ground/2090/2091 2092 2093 2092/2091 2092 2093 2092/2091 2092 2093 2092",//gouldian finch
+        "2124": "2095/ground/2095/2096 2097 2098 2097/2096 2097 2098 2097/2096 2097 2098 2097",//zebra finch
+        "2133": "2133/ground/2133/2134 2135 2136 2135/2134 2135 2136 2135/2134 2135 2136 2135",//cockatiel
+        "2102": "2100/crawl/2100 2101 2101 2101 2100 2100 2100 2100 2100 2100 2100 2100 2100 2100/2102 2103/2102 2103/2102 2103",//white guinea pig
+        "2103": "2104/crawl/2104 2105 2105 2105 2104 2104 2104 2104 2104 2104 2104 2104 2104 2104/2106 2107/2106 2107/2106 2107",//black guinea pig
+        "2104": "2108/crawl/2108 2109 2109 2109 2108 2108 2108 2108 2108 2108 2108 2108 2108 2108/2110 2111/2110 2111/2110 2111",//grey guinea pig
+        "2105": "2112/crawl/2112 2113 2113 2113 2112 2112 2112 2112 2112 2112 2112 2112 2112 2112/2114 2115/2114 2115/2114 2115",//brown guinea pig
+        "2081": "2116/crawl/2116/2117 2116/2117 2116/2117 2116",//tarantula
+        "2101": "2120/crawl/2124/2123 2122 2121 2120/2125 2126/2120 2121 2122 2123",//hedgehog
+        "2062": "2127/crawl/2128 2129 2130 2127 2127 2127 2127 2127 2130 2129 2128 2128 2128 2128 2128 2128/2131 2132/2131 2132/2131 2132",//frilled lizard
+      }
+    },
+    //location data 
+    {
+      "Action": "EditData",
+      "LogName": "Critter Location Data",
+      "Target": "Data/Locations",
+      "TextOperations": [
+     {
+         "Operation": "Append",
+         "Target": ["Fields", "Desert", 0],//spring forage 
+         "Value": "2050 .4 2064 .5 2080 .3 2119 .4 2044 .3",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "Desert", 1],//summer forage 
+         "Value": "2083 .7 2041 .4 2133 .6 2098 .4 2047 .5",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      }, 
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "Desert", 2],//fall forage 
+         "Value": "2083 .7 2109 .6 2058 .2 2040 .4 2043 .3 2047 .5",
+         "Delimiter": " "// if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "Desert", 3],//winter forage 
+         "Value": "2101 .4 2109 .6",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "Woods", 0],//spring forage 
+         "Value": "2085 .3 2071 .6",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "Woods", 1],//summer forage 
+         "Value": "2060 .5 2046 .3 2074 .5 2071 .6 2070 .6",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      }, 
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "Woods", 2],//fall forage 
+         "Value": "2049 .4 2070 .6",
+         "Delimiter": " "// if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "Mountain", 0],//spring forage 
+         "Value": "2063 .3 2075 .5 2076 .3 2077 .3 2078 .3 2079 .3 2086 .3 2087 .3 2110 .3 2111 .3 2117 .6 2118 .6 2130 .3",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "Mountain", 1],//summer forage 
+         "Value": "2063 .3 2075 .5 2076 .3 2077 .3 2078 .3 2079 .3 2086 .3 2087 .3 2110 .3 2111 .3 2108 .3",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      }, 
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "Mountain", 2],//fall forage 
+         "Value": "2063 .3 2075 .5 2076 .3 2077 .3 2078 .3 2079 .3 2086 .3 2087 .3 2110 .3 2111 .3 2108 .3 2130 .3",
+         "Delimiter": " "// if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "Mountain", 3],//winter forage 
+         "Value": "2063 .3 2075 .5 2076 .3 2077 .3 2078 .3 2079 .3 2086 .3 2087 .3 2110 .3 2111 .3 2097 .5",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "Town", 0],//spring forage 
+         "Value": "2063 .3 2075 .5 2076 .3 2077 .3 2078 .3 2079 .3 2086 .3 2087 .3 2110 .3 2111 .3 2122 .4 2092 .6 2089 .4 2072 .6",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "Town", 1],//summer forage 
+         "Value": "2063 .3 2075 .5 2076 .3 2077 .3 2078 .3 2079 .3 2086 .3 2087 .3 2110 .3 2111 .3 2122 .4 2093 .6 2135 .3 2090 .4",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      }, 
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "Town", 2],//fall forage 
+         "Value": "2063 .3 2075 .5 2076 .3 2077 .3 2078 .3 2079 .3 2086 .3 2087 .3 2110 .3 2111 .3 2122 .4 2094 .6 2091 .4",
+         "Delimiter": " "// if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "Town", 3],//winter forage 
+         "Value": "2063 .3 2075 .5 2076 .3 2077 .3 2078 .3 2079 .3 2086 .3 2087 .3 2110 .3 2111 .3 2095 .6 2088 .4 2122 .4",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "Forest", 0],//spring forage 
+         "Value": "2112 .3 2113 .3 2114 .3 2115 .3 2116 .3 2117 .4 2118 .4 2096 .4 2073 .6 2072 .6 2048 .6 2100 .5 2063 .3 2075 .5 2076 .3 2077 .3 2078 .3 2079 .3 2086 .3 2087 .3 2110 .3 2111 .3 2134 .5",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "Forest", 1],//summer forage 
+         "Value": "2112 .3 2113 .3 2114 .3 2115 .3 2116 .3 2074 .5 2124 .3 2068 .5 2069 .5 2066 .6 2082 .4 2100 .5 2063 .3 2075 .5 2076 .3 2077 .3 2078 .3 2079 .3 2086 .3 2087 .3 2110 .3 2111 .3 2074 .5 2073 .6",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      }, 
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "Forest", 2],//fall forage 
+         "Value": "2112 .3 2113 .3 2114 .3 2115 .3 2116 .3 2057 .4 2107 .3 2067 .6 2099 .5 2063 .3 2075 .5 2076 .3 2077 .3 2078 .3 2079 .3 2086 .3 2087 .3 2110 .3 2111 .3",
+         "Delimiter": " "// if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "Forest", 3],//winter forage 
+         "Value": "2096 .6 2099 .5",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "Beach", 1],//summer forage 
+         "Value": "2131 .6",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+    ]
+    },
+     {   
+    "Action": "EditData",
+    "LogName": "Context Tags",
+    "Target": "Data/ObjectContextTags",
+    "Entries": { 
+      "Firefly": "bug_firefly",
+      "Cricket": "bug_cricket",
+      "Anthill": "bug_anthill",
+      "Anole": "critter_lizard",
+      "Mudskipper": "critter_mudskipper",
+      "Leaf Insect": "bug_leaf_insect",
+      "Stick Insect": "bug_stick_insect",
+      "Pink Orchid Mantis": "bug_orchid_mantis",
+      "Blue Poison Dart Frog": "critter_dart_frog",
+      "Teal Poison Dart Frog": "critter_dart_frog",
+      "Green Poison Dart Frog": "critter_dart_frog",
+      "Red Poison Dart Frog": "critter_dart_frog",
+      "Yellow Poison Dart Frog": "critter_dart_frog",
+      "Toucan": "bird_toucan",
+      "Kestrel": "bird_Kestrel",
+      "Cockatoo": "bird_cockatoo",
+      "Sun Conure": "bird_sun_conure",
+      "Meyers Parrot": "bird_meyers_parrot",
+      "Pelican": "bird_pelican",
+      "African Grey Parrot": "bird_african_grey_parrot",
+      "Barn Owl": "bird_barn_owl",
+      "Lorikeet": "bird_lorikeet",
+      "Ferret": "critter_ferret"
+    }
+   },
+   {
+     "Action": "EditImage",
+     "LogName": "Bird Nest Animated",  
+     "Target": "LooseSprites/AquariumFish",
+     "FromFile": "assets/bird_nest.png",
+     "FromArea": { "X": 0, "Y": 0, "Width": 24, "Height": 24 },
+     "ToArea": { "X": 432, "Y": 4752, "Width": 24, "Height": 24 },
+     "AnimationFrameTime": 30,
+     "AnimationFrameCount": 6,
+     "When":
+        {
+        "HasMod": "spacechase0.ContentPatcherAnimations",
+        }
+    },
+    {
+     "Action": "EditImage",
+     "LogName": "Lovebirds Animated",  
+     "Target": "LooseSprites/AquariumFish",
+     "FromFile": "assets/lovebirds.png",
+     "FromArea": { "X": 0, "Y": 0, "Width": 24, "Height": 24 },
+     "ToArea": { "X": 168, "Y": 4896, "Width": 24, "Height": 24 },
+     "AnimationFrameTime": 15,
+     "AnimationFrameCount": 12,
+     "When":
+        {
+        "HasMod": "spacechase0.ContentPatcherAnimations",
+        }
+    },
+    {
+     "Action": "EditImage",
+     "LogName": "Anthill Animated",  
+     "Target": "LooseSprites/AquariumFish",
+     "FromFile": "assets/anthill.png",
+     "FromArea": { "X": 0, "Y": 0, "Width": 24, "Height": 24 },
+     "ToArea": { "X": 456, "Y": 4656, "Width": 24, "Height": 24 },
+     "AnimationFrameTime": 30,
+     "AnimationFrameCount": 2,
+     "When":
+        {
+        "HasMod": "spacechase0.ContentPatcherAnimations",
+        }
+    },
+     {
+     "Action": "EditImage",
+     "LogName": "Vine Snake Animated",  
+     "Target": "LooseSprites/AquariumFish",
+     "FromFile": "assets/vine_snake.png",
+     "FromArea": { "X": 0, "Y": 0, "Width": 24, "Height": 24 },
+     "ToArea": { "X": 456, "Y": 4704, "Width": 24, "Height": 24 },
+     "AnimationFrameTime": 30,
+     "AnimationFrameCount": 2,
+     "When":
+        {
+        "HasMod": "spacechase0.ContentPatcherAnimations",
+        }
+    },
+     {
+     "Action": "EditImage",
+     "LogName": "Rodent Nest Animated",  
+     "Target": "LooseSprites/AquariumFish",
+     "FromFile": "assets/rodent_nest.png",
+     "FromArea": { "X": 0, "Y": 0, "Width": 24, "Height": 24 },
+     "ToArea": { "X": 456, "Y": 4752, "Width": 24, "Height": 24 },
+     "AnimationFrameTime": 30,
+     "AnimationFrameCount": 3,
+     "When":
+        {
+        "HasMod": "spacechase0.ContentPatcherAnimations",
+        }
+    },
+     {
+     "Action": "EditImage",
+     "LogName": "Puffball Bats Animated",  
+     "Target": "LooseSprites/AquariumFish",
+     "FromFile": "assets/puffball_bats.png",
+     "FromArea": { "X": 0, "Y": 0, "Width": 24, "Height": 24 },
+     "ToArea": { "X": 120, "Y": 4896, "Width": 24, "Height": 24 },
+     "AnimationFrameTime": 60,
+     "AnimationFrameCount": 10,
+     "When":
+        {
+        "HasMod": "spacechase0.ContentPatcherAnimations",
+        }
+    },
+    {
+     "Action": "EditImage",
+     "LogName": "Chameleon Animated",  
+     "Target": "LooseSprites/AquariumFish",
+     "FromFile": "assets/chameleon.png",
+     "FromArea": { "X": 0, "Y": 0, "Width": 24, "Height": 24 },
+     "ToArea": { "X": 144, "Y": 4896, "Width": 24, "Height": 24 },
+     "AnimationFrameTime": 30,
+     "AnimationFrameCount": 9,
+     "When":
+        {
+        "HasMod": "spacechase0.ContentPatcherAnimations",
+        }
+    }
+]
+}
