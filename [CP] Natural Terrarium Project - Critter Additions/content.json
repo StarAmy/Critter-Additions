@@ -1,5 +1,11 @@
 {
     "Format": "1.23.0",
+    "ConfigSchema": {
+         "Item Collecting": {
+            "AllowValues": "True, False",
+            "Default": "True"
+        },
+      },
     "Changes": [
          {
         "Action": "EditImage",
@@ -221,6 +227,9 @@
       "Action": "EditData",
       "LogName": "Critter Location Data",
       "Target": "Data/Locations",
+      "When":{ 
+            "Item Collecting": "True"
+        },
       "TextOperations": [
      {
          "Operation": "Append",
